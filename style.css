@@ -1,0 +1,98 @@
+body {
+	font-family: calibri;
+	background-image: url(BGdark.png);
+}
+.navigasi {
+	color: white;
+	width: 70%;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.data1 {
+	width: 30%;
+	margin-left: 200px;
+	background-color: #2c4047;
+	display: inline-block;
+	height: 1400px;
+}
+
+.data2 {
+	width: 24%;
+	margin: 0;
+	background-color: #2c4047;
+	display: inline-block;
+	height: 1400px;
+}
+
+.data3 {
+	width: 23%;
+	margin: 0;
+	background-color: #2c4047;
+	display: inline-block;
+	height: 1400px;
+}
+
+h1 {
+	margin-left: 5px;
+	width: 100%;
+	color: white;
+	font-family: arial;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-style: oblique;
+	text-align: center;
+	background-color: #132329;
+}
+h2 {
+	margin-left: 20px;
+	width: 100%;
+	color: lightblue;
+}
+p {
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	display: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+}
+
+a:hover {
+	color: lightyellow;
+	font-family: arial;
+	font-size: 20px;
+}
+
+img {
+  transition: transform .5s; /* Animation */
+  height: 130px;
+  transform-origin: 50% 0%;
+}
+
+img#first {
+	margin-left: 20px;
+  transition: transform .5s; /* Animation */
+  height: 130px;
+  transform-origin: 0% 0%;
+  overflow: scroll;  
+}
+
+img#last {
+  transition: transform .5s; /* Animation */
+  height: 130px;
+  transform-origin: 100% 0%;
+  overflow: scroll;
+}
+
+img:hover {
+  transform: scale(5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
